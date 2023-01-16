@@ -1,0 +1,26 @@
+.size_box_cont {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.size_name {
+  border: 1px solid #ede8e8;
+  padding: 15px 05px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--black);
+  font-family: var(--third_font);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.size_name:hover {
+  border: 1px solid black;
+}

@@ -1,0 +1,15 @@
+
+  .prod_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .prod_price {
+    display: flex;
+    gap: 10px;
+    justify-content: baseline;
+    align-items: baseline;
+  }
